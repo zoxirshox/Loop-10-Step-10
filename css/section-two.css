@@ -1,0 +1,55 @@
+.section-two {
+  display: flex;
+  align-items: center;
+  margin-left: 280px;
+  margin-top: 50px;
+  gap: 180px;
+}
+
+@media (max-width: 800px) {
+  .section-two {
+    margin-left: 65px;
+  }
+}
+
+.section-two h2 {
+  font-size: 28px;
+  font-weight: 700px;
+}
+
+@media (max-width: 800px) {
+  .section-two h2 {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.section-two p {
+  color: grey;
+  width: 430px;
+  font-size: 15px;
+  border-left: 1.8px solid grey;
+  padding-left: 25px;
+}
+
+@media (max-width: 800px) {
+  .section-two p {
+    width: 300px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .section-two img {
+    width: 200px;
+    margin-left: -50px;
+  }
+}
+
+.btn-primary {
+  width: 70px;
+}

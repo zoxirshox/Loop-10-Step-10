@@ -1,0 +1,30 @@
+.section {
+  margin-top: 80px;
+  display: flex;
+  border-bottom: 1px solid #dedede;
+}
+
+.section h2 {
+  font-size: 28px;
+  font-weight: 700px;
+  padding-bottom: 15px;
+}
+
+.section p {
+  color: grey;
+  width: 430px;
+  font-size: 15px;
+  border-left: 1.8px solid grey;
+  padding-left: 25px;
+}
+
+@media (max-width: 800px) {
+  .section p {
+    width: 260px;
+  }
+}
+
+.watch {
+  margin-top: -80px;
+  margin-right: -220px;
+}
